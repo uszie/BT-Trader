@@ -1,0 +1,71 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>CurvePropertiesForm</class>
+ <widget class="QWidget" name="CurvePropertiesForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>149</width>
+    <height>149</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <property name="fieldGrowthPolicy">
+    <enum>QFormLayout::ExpandingFieldsGrow</enum>
+   </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="colorLabel">
+     <property name="text">
+      <string>Kleur</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QComboBox" name="colorComboBox"/>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="widthLabel">
+     <property name="text">
+      <string>Dikte</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="widthComboBox"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="styleLabel">
+     <property name="text">
+      <string>Stijl</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="styleComboBox"/>
+   </item>
+   <item row="6" column="1">
+    <widget class="QPushButton" name="closePushButton">
+     <property name="text">
+      <string>Sluiten</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QCheckBox" name="fillCheckBox"/>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="fillLabel">
+     <property name="text">
+      <string>Opvullen</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

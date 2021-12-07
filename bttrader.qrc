@@ -1,0 +1,25 @@
+<RCC>
+    <qresource prefix="/">
+        <file>images/close.png</file>
+        <file>images/go-down.svg</file>
+        <file>images/go-down-green-quote.svg</file>
+        <file>images/go-down-red-quote.svg</file>
+        <file>images/go-first-view.png</file>
+        <file>images/go-last-view.png</file>
+        <file>images/go-right.svg</file>
+        <file>images/go-up.svg</file>
+        <file>images/input-mouse.png</file>
+        <file>images/maximize.png</file>
+        <file>images/minimize.png</file>
+        <file>images/package_settings.png</file>
+        <file>images/process-stop.svg</file>
+        <file>images/view-refresh.svg</file>
+        <file>images/window-close.png</file>
+        <file>images/zoom-in.png</file>
+        <file>images/zoom-original.png</file>
+        <file>images/zoom-out.png</file>
+        <file>images/Gears-02-june.gif</file>
+        <file>recources/palette</file>
+        <file>images/world-map-background.jpg</file>
+    </qresource>
+</RCC>

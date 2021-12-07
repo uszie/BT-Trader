@@ -1,0 +1,225 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>SimulationProperties</class>
+ <widget class="QWidget" name="SimulationProperties">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>362</width>
+    <height>227</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <property name="fieldGrowthPolicy">
+    <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+   </property>
+   <property name="verticalSpacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="startCapitalLabel">
+     <property name="text">
+      <string>Investerings kapitaal</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QDoubleSpinBox" name="startCapitalDoubleSpinBox">
+     <property name="suffix">
+      <string> €</string>
+     </property>
+     <property name="minimum">
+      <double>100.000000000000000</double>
+     </property>
+     <property name="maximum">
+      <double>999999999.000000000000000</double>
+     </property>
+     <property name="singleStep">
+      <double>1000.000000000000000</double>
+     </property>
+     <property name="value">
+      <double>10000.000000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="modeLabel">
+     <property name="text">
+      <string>Transactiekosten modus</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="modeComboBox">
+     <item>
+      <property name="text">
+       <string>Pips</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Valuta</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="fillAverageSpreadToLabel">
+     <property name="text">
+      <string>Gemiddelde kaart spread aanvullen tot</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QCheckBox" name="fillAverageSpreadToCheckBox">
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="fixedSpreadLabel">
+     <property name="text">
+      <string>Vaste spread</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QCheckBox" name="fixedSpreadCheckBox">
+     <property name="autoExclusive">
+      <bool>true</bool>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="pipSpreadLabel">
+     <property name="text">
+      <string>Spread</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QDoubleSpinBox" name="pipSpreadDoubleSpinBox">
+     <property name="specialValueText">
+      <string>Uitgeschakeld.</string>
+     </property>
+     <property name="suffix">
+      <string> pips</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="variableTransactionCostsLabel">
+     <property name="text">
+      <string>Variable transactiekosten</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QDoubleSpinBox" name="variableTransactionCostsDoubleSpinBox">
+     <property name="specialValueText">
+      <string>Uitgeschakeld.</string>
+     </property>
+     <property name="suffix">
+      <string> %</string>
+     </property>
+     <property name="singleStep">
+      <double>0.010000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="fixedTransactionCostsLabel">
+     <property name="text">
+      <string>Vaste transactiekosten</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QDoubleSpinBox" name="fixedTransactionCostsDoubleSpinBox">
+     <property name="specialValueText">
+      <string>Uitgeschakeld.</string>
+     </property>
+     <property name="suffix">
+      <string> €</string>
+     </property>
+     <property name="maximum">
+      <double>999999999.000000000000000</double>
+     </property>
+     <property name="singleStep">
+      <double>0.500000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="minimalTransactionCostsLabel">
+     <property name="text">
+      <string>Minimale transactiekosten</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QDoubleSpinBox" name="minimalTransactionCostsDoubleSpinBox">
+     <property name="specialValueText">
+      <string>Uitgeschakeld.</string>
+     </property>
+     <property name="suffix">
+      <string> €</string>
+     </property>
+     <property name="maximum">
+      <double>999999999.000000000000000</double>
+     </property>
+     <property name="singleStep">
+      <double>0.500000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="maximumTransactionCostsLabel">
+     <property name="text">
+      <string>Maximale transactiekosten</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QDoubleSpinBox" name="maximumTransactionCostsDoubleSpinBox">
+     <property name="specialValueText">
+      <string>Uitgeschakeld.</string>
+     </property>
+     <property name="suffix">
+      <string> €</string>
+     </property>
+     <property name="maximum">
+      <double>999999999.000000000000000</double>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="valutaSpreadLabel">
+     <property name="text">
+      <string>Spread</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QDoubleSpinBox" name="valutaSpreadDoubleSpinBox">
+     <property name="specialValueText">
+      <string>Uitgeschakeld.</string>
+     </property>
+     <property name="suffix">
+      <string> punten</string>
+     </property>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>

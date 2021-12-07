@@ -1,0 +1,231 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>PriceCurvePropertiesForm</class>
+ <widget class="QWidget" name="PriceCurvePropertiesForm">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>237</width>
+    <height>249</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QFormLayout" name="formLayout">
+   <property name="fieldGrowthPolicy">
+    <enum>QFormLayout::AllNonFixedFieldsGrow</enum>
+   </property>
+   <property name="verticalSpacing">
+    <number>0</number>
+   </property>
+   <property name="margin">
+    <number>0</number>
+   </property>
+   <item row="0" column="0">
+    <widget class="QLabel" name="showComposistionLabel">
+     <property name="text">
+      <string>Toon samenstelling</string>
+     </property>
+    </widget>
+   </item>
+   <item row="0" column="1">
+    <widget class="QCheckBox" name="showComposistionCheckBox"/>
+   </item>
+   <item row="1" column="0">
+    <widget class="QLabel" name="compositionStyleLabel">
+     <property name="text">
+      <string>Samenstelling's stijl</string>
+     </property>
+    </widget>
+   </item>
+   <item row="1" column="1">
+    <widget class="QComboBox" name="compositionStyleComboBox">
+     <item>
+      <property name="text">
+       <string>OHLC</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Candle</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="2" column="0">
+    <widget class="QLabel" name="compositionSourceLabel">
+     <property name="text">
+      <string>Samenstelling's bron</string>
+     </property>
+    </widget>
+   </item>
+   <item row="2" column="1">
+    <widget class="QComboBox" name="compositionSourceComboBox">
+     <item>
+      <property name="text">
+       <string>Gemiddeld</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ask</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bid</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="3" column="0">
+    <widget class="QLabel" name="showOpenLabel">
+     <property name="text">
+      <string>Toon open prijs</string>
+     </property>
+    </widget>
+   </item>
+   <item row="3" column="1">
+    <widget class="QCheckBox" name="showOpenCheckBox"/>
+   </item>
+   <item row="4" column="0">
+    <widget class="QLabel" name="openSourceLabel">
+     <property name="text">
+      <string>Open bron</string>
+     </property>
+    </widget>
+   </item>
+   <item row="4" column="1">
+    <widget class="QComboBox" name="openSourceComboBox">
+     <item>
+      <property name="text">
+       <string>Gemiddeld</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ask</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bid</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="5" column="0">
+    <widget class="QLabel" name="showHighLabel">
+     <property name="text">
+      <string>Toon high prijs</string>
+     </property>
+    </widget>
+   </item>
+   <item row="5" column="1">
+    <widget class="QCheckBox" name="showHighCheckBox"/>
+   </item>
+   <item row="6" column="0">
+    <widget class="QLabel" name="highSourceLabel">
+     <property name="text">
+      <string>High bron</string>
+     </property>
+    </widget>
+   </item>
+   <item row="6" column="1">
+    <widget class="QComboBox" name="highSourceComboBox">
+     <item>
+      <property name="text">
+       <string>Gemiddeld</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ask</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bid</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="7" column="0">
+    <widget class="QLabel" name="showLowLabel">
+     <property name="text">
+      <string>Toon low prijs</string>
+     </property>
+    </widget>
+   </item>
+   <item row="7" column="1">
+    <widget class="QCheckBox" name="showLowCheckBox"/>
+   </item>
+   <item row="8" column="0">
+    <widget class="QLabel" name="lowSourceLabel">
+     <property name="text">
+      <string>Low bron</string>
+     </property>
+    </widget>
+   </item>
+   <item row="8" column="1">
+    <widget class="QComboBox" name="lowSourceComboBox">
+     <item>
+      <property name="text">
+       <string>Gemiddeld</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ask</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bid</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+   <item row="9" column="0">
+    <widget class="QLabel" name="showCloseLabel">
+     <property name="text">
+      <string>Toon close prijs</string>
+     </property>
+    </widget>
+   </item>
+   <item row="9" column="1">
+    <widget class="QCheckBox" name="showCloseCheckBox"/>
+   </item>
+   <item row="10" column="0">
+    <widget class="QLabel" name="closeSourceLabel">
+     <property name="text">
+      <string>Close bron</string>
+     </property>
+    </widget>
+   </item>
+   <item row="10" column="1">
+    <widget class="QComboBox" name="closeSourceComboBox">
+     <item>
+      <property name="text">
+       <string>Gemiddeld</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Ask</string>
+      </property>
+     </item>
+     <item>
+      <property name="text">
+       <string>Bid</string>
+      </property>
+     </item>
+    </widget>
+   </item>
+  </layout>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
